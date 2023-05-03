@@ -1,7 +1,7 @@
 git init-to convert folder into git repositiory
-git add --a ->adds all files to it "state" state
+git add --a ->adds all files to it "state" state//to bring everything in state mode
 git status-to know status
-git log-gives all details of state and committed file
+git log-gives all details of state and committed file changes history
 rm -rf .git-delete existsing git repository
 pwd-present working directory info
 ls-list of all folders 
