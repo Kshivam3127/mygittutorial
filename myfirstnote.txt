@@ -1,0 +1,10 @@
+git init-to convert folder into git repositiory
+git add --a ->adds all files to it "state" state
+git status-to know status
+git log-gives all details of state and committed file
+rm -rf .git-delete existsing git repository
+pwd-present working directory info
+ls-list of all folders 
+cd-change directory
+git commit -m "informstion of user for commiting (stage->commit)"->says clean tree no commit required uploads it
+
