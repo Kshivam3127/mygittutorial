@@ -1,3 +1,4 @@
+                                                GIT  TUTORIAL
 git init-to convert folder into git repositiory
 git add --a or git add .->adds all files to it "state" state//to bring everything in state mode
 git status-to know status
@@ -9,3 +10,6 @@ cd-change directory
 git commit -m "informstion of user for commiting (stage->commit)"->says clean tree no commit required uploads it
 touch error.log->generates automatic log file
 touch .gitignore->generates git ignore file where we can include all log file like(*.log) and folder like (folder_name/) and if folder is outside folder then it would also work as /f
+git diff ->shows the difference between working directory and staging area 
+git diff -- staged ->shows the difference between presently commit area and staging area 
+
