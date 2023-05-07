@@ -12,4 +12,8 @@ touch error.log->generates automatic log file
 touch .gitignore->generates git ignore file where we can include all log file like(*.log) and folder like (folder_name/) and if folder is outside folder then it would also work as /f
 git diff ->shows the difference between working directory and staging area 
 git diff -- staged ->shows the difference between presently commit area and staging area 
+git commit -a -m ->direct commit of all tracked file  but (not untracked file) and get tree clean i.e if there are 2 file first.txt and second.txt,first is already there and u edit something and at same time u make a new file i.e second.txt and u use this command first.txt will be added and committed but second will not be commited u need to add it.
+ 
+
+
 
