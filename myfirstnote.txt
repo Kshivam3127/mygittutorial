@@ -2,7 +2,7 @@
 git init ->to convert folder into git repositiory
 git add --a or git add . ->adds all files to it "state" state//to bring everything in state mode
 git status ->to know status
-git log ->gives all details of state and committed file changes history
+git log ->gives all details of state and committed file changes history and press q to comeout
 rm -rf .git ->delete existsing git repository
 pwd ->present working directory info
 ls ->list of all folders 
@@ -22,7 +22,9 @@ git log --pretty=oneline ->show all commits in one line with details
 git log --pretty=short/full ->it shows shortly every commits
 git log --since=2.days/2.weeks/2.months/2.years ->show all commits in last 2days/2months..
 git log --pretty=format:"%h--%an" ->it shows commits in format like 'h' means no and 'an' means author name list would be shown in list format where h and an are pretty formats.U can get this in git scm useful pretty format list in google search
-git commit --amend ->to change commit u did previously i.e if u edit something in file and use this command,a new window appears press i for insert for new commit then press esc(escape) then ':wq'.and it would automatically add new commit to last commit
+git commit --amend ->to change commit u did previously i.e if u edit something in file and use this command,a new window appears press i for insert for new commit then press esc(escape) then ':wq'.and it would automatically add new commit to last commit.
+git restore --staged file_name.type ->it unstages the particular file
+git checkout -- file_name.type->if u modified something in file and want to get previous info then use this command
 
 
 
