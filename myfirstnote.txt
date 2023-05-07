@@ -1,4 +1,4 @@
-                                                GIT  TUTORIAL
+                                                 GIT  TUTORIAL
 git init-to convert folder into git repositiory
 git add --a or git add .->adds all files to it "state" state//to bring everything in state mode
 git status-to know status
