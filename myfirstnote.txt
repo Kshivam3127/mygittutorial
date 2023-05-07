@@ -1,23 +1,31 @@
                                                  GIT  TUTORIAL
-git init-to convert folder into git repositiory
-git add --a or git add .->adds all files to it "state" state//to bring everything in state mode
-git status-to know status
-git log-gives all details of state and committed file changes history
-rm -rf .git-delete existsing git repository
-pwd-present working directory info
-ls-list of all folders 
-cd-change directory
-git commit -m "informstion of user for commiting (stage->commit)"->says clean tree no commit required uploads it
+git init ->to convert folder into git repositiory
+git add --a or git add . ->adds all files to it "state" state//to bring everything in state mode
+git status ->to know status
+git log ->gives all details of state and committed file changes history
+rm -rf .git ->delete existsing git repository
+pwd ->present working directory info
+ls ->list of all folders 
+cd ->change directory
+git commit -m "informstion of user for commiting (stage->commit)" ->says clean tree no commit required uploads it
 touch error.log->generates automatic log file
 touch .gitignore->generates git ignore file where we can include all log file like(*.log) and folder like (folder_name/) and if folder is outside folder then it would also work as /f
 git diff ->shows the difference between working directory and staging area 
 git diff -- staged ->shows the difference between presently commit area and staging area 
 git commit -a -m ->direct commit of all tracked file  but (not untracked file) and get tree clean i.e if there are 2 file first.txt and second.txt,first is already there and u edit something and at same time u make a new file i.e second.txt and u use this command first.txt will be added and committed but second will not be commited u need to add it.
 git rm filename.type ->deleting the file using git
-rm -rf .git ->this deletes the present git repository 
 git clone url_name folder_name ->clones and brings all files of particular to new folder folder_name in git from online
+git log -p ->it will show what is removed what is added in any git repository
+git log -p -n ->where n can be 1,2,3,4.. showing how many commits u want to see  
+git log --stat ->it show brief changes done in commits by author
+git log --pretty=oneline ->show all commits in one line with details 
+git log --pretty=short/full ->it shows shortly every commits
+git log --since=2.days/2.weeks/2.months/2.years ->show all commits in last 2days/2months..
+git log --pretty=format:"%h--%an" ->it shows commits in format like 'h' means no and 'an' means author name list would be shown in list format where h and an are pretty formats.U can get this in git scm useful pretty format list in google search
+git commit --amend ->to change commit u did previously i.e if u edit something in file and use this command,a new window appears press i for insert for new commit then press esc(escape) then ':wq'.and it would automatically add new commit to last commit
 
- 
+
+
 
 
 
