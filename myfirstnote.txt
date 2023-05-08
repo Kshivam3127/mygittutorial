@@ -27,6 +27,11 @@ git restore --staged file_name.type ->it unstages the particular file
 git checkout -- file_name.type->if u modified something in file and want to get previous info then use this command
 git checkout -f ->brings back to previous commits to many files
 shift+insert ->to paste in git 
+pull ->to drag something from github to ur repository
+push ->to push something in git repository
+
+
+
 
 
 
