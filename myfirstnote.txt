@@ -36,8 +36,19 @@ git remote ->given name of link here origin
 git remote -v ->fetch/push info
 then create ssh keys by going to setting in github ->create name of file ->search ssh keys github ->then follow steps mentioned(code with harry video_no_13_time_8:30)
 git push -u remote master ->pushes the file that is created in git folder after (staging->commiting) into github
+  
 
 
+
+ALIAS NAME
+git config --global alias.st status ->in place of status u can use st as *git st*(* for visibility not to be used)
+git config --global alias.jack 'log -p -1' ->if u use *git jack* then it automaticslly shows u the last commit which is done by log -p -1 command
+
+
+
+GIT BRANCH
+git checkout -b branch_name ->it opens branch name u can add and delete files in it and commit finally and if u want to go back to master type "git checkout master" and it switches back to it with no changes..
+n
 
 
 
