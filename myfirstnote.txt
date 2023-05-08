@@ -25,7 +25,8 @@ git log --pretty=format:"%h--%an" ->it shows commits in format like 'h' means no
 git commit --amend ->to change commit u did previously i.e if u edit something in file and use this command,a new window appears press i for insert for new commit then press esc(escape) then ':wq'.and it would automatically add new commit to last commit.
 git restore --staged file_name.type ->it unstages the particular file
 git checkout -- file_name.type->if u modified something in file and want to get previous info then use this command
-
+git checkout -f ->brings back to previous commits to many files
+shift+insert ->to paste in git 
 
 
 
