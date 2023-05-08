@@ -29,6 +29,13 @@ git checkout -f ->brings back to previous commits to many files
 shift+insert ->to paste in git 
 pull ->to drag something from github to ur repository
 push ->to push something in git repository
+								GITHUB TUTORIAL
+go to github ->create repository ->select push repository ->copy the link paste it in git bash->
+then paste in bash and origin named of link given will be created.
+git remote ->given name of link here origin
+git remote -v ->fetch/push info
+then create ssh keys by going to setting in github ->create name of file ->search ssh keys github ->then follow steps mentioned(code with harry video_no_13_time_8:30)
+git push -u remote master ->pushes the file that is created in git folder after (staging->commiting) into github
 
 
 
