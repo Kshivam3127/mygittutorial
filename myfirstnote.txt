@@ -48,7 +48,7 @@ git config --global alias.jack 'log -p -1' ->if u use *git jack* then it automat
 
 GIT BRANCH
 git checkout -b branch_name ->it opens branch name u can add and delete files in it and commit finally and if u want to go back to master type "git checkout master" and it switches back to it with no changes..
-n
+git branch -D branch_name ->deletes the branch
 
 
 
